@@ -72,7 +72,8 @@ public class Board {
 			target = from - count;
 		}
 		if(target > 23 || target < 0){
-			return hasAllInBase(who,from);
+			//return hasAllInBase(who,from);
+			return true;
 		}
 		Stone.Color tarwho = stoneColors[target];
 		if(tarwho == who || tarwho == Stone.Color.NONE){
