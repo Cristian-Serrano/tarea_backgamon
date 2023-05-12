@@ -84,7 +84,7 @@ public class Main {
                 System.out.println("Dado 1:" + game.getDice().getDiceOne());
                 System.out.println("Dado 2:" + game.getDice().getDiceTwo());
 
-                seguir = game.getDice().isRolled();
+                seguir = seguir && game.getDice().isRolled();
 
             }
         }
