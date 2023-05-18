@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d94788e-43ae-49e5-a405-3b2755c724c6" name="Changes" comment="Commit Inicial">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/backgammon/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/backgammon/BoardDrawerCL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/backgammon/Dices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/backgammon/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/backgammon/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/backgammon/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/backgammon/ShowOnlyDices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/backgammon/Stone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/backgammon/WrongMoveException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/backgammon/BoardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/backgammon/BoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/backgammon/BoardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +26,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2PXsu1l68kULYHoc58m6d3h8kel" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -73,9 +53,8 @@
       <recent name="C:\Users\usuario\IdeaProjects\backgammon_tests\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.iesvdm.backgammon.Main" />
+  <component name="RunManager" selected="JUnit.BoardTest.whenBlackTargetMoveLessThan0_homeBlackIncrease">
+    <configuration name="BoardTest.whenAddStoneToEmptyPosition_StonesInPosition1AndStoneTypeColorThatStone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backgammon_tests" />
       <extension name="coverage">
         <pattern>
@@ -83,13 +62,85 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.iesvdm.backgammon" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.backgammon.BoardTest" />
+      <option name="METHOD_NAME" value="whenAddStoneToEmptyPosition_StonesInPosition1AndStoneTypeColorThatStone" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardTest.whenAddStoneToPositionOfDifferenteColorThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backgammon_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesvdm.backgammon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesvdm.backgammon" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.backgammon.BoardTest" />
+      <option name="METHOD_NAME" value="whenAddStoneToPositionOfDifferenteColorThrowsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardTest.whenBlackTargetMoveLessThan0_homeBlackIncrease" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backgammon_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesvdm.backgammon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesvdm.backgammon" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.backgammon.BoardTest" />
+      <option name="METHOD_NAME" value="whenBlackTargetMoveLessThan0_homeBlackIncrease" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardTest.whenRemoveStoneFromEmptyPositionThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backgammon_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesvdm.backgammon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesvdm.backgammon" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.backgammon.BoardTest" />
+      <option name="METHOD_NAME" value="whenRemoveStoneFromEmptyPositionThrowsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardTest.whenWhiteTargetMoveGreaterThan23_homeWhiteIncrease" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backgammon_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesvdm.backgammon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesvdm.backgammon" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.backgammon.BoardTest" />
+      <option name="METHOD_NAME" value="whenWhiteTargetMoveGreaterThan23_homeWhiteIncrease" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BoardTest.whenBlackTargetMoveLessThan0_homeBlackIncrease" />
+        <item itemvalue="JUnit.BoardTest.whenWhiteTargetMoveGreaterThan23_homeWhiteIncrease" />
+        <item itemvalue="JUnit.BoardTest.whenAddStoneToEmptyPosition_StonesInPosition1AndStoneTypeColorThatStone" />
+        <item itemvalue="JUnit.BoardTest.whenRemoveStoneFromEmptyPositionThrowsException" />
+        <item itemvalue="JUnit.BoardTest.whenAddStoneToPositionOfDifferenteColorThrowsException" />
       </list>
     </recent_temporary>
   </component>
@@ -104,6 +155,7 @@
       <workItem from="1683614983547" duration="1769000" />
       <workItem from="1683625735046" duration="7753000" />
       <workItem from="1683648866208" duration="6334000" />
+      <workItem from="1684424534847" duration="9182000" />
     </task>
     <servers />
   </component>
@@ -113,16 +165,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit Inicial" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit Inicial" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/iesvdm/backgammon/Main.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
